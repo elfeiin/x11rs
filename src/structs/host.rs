@@ -1,6 +1,6 @@
 use super::*;
 
 pub struct Host {
-   family: Family,
-   address: Vec<Byte>,
+   pub family: Family,
+   pub address: Vec<Byte>,
 }

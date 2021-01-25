@@ -1,6 +1,7 @@
 use super::*;
 
-pub struct Arc {
+structure! {
+   Arc,
    x: Int16,
    y: Int16,
    width: Card16,

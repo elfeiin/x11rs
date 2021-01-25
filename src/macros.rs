@@ -7,6 +7,20 @@ macro_rules! mpu {
    () => {};
 }
 
+#[macro_export]
+macro_rules! structure {
+   ($name:ident, $($field:ident: $type:ty,)* ) => {
+      pub struct $name {
+         $(
+            pub $field: $type,
+         )*
+      }
+   };
+   ($name:tt, $($field:tt: $type:ty),*) => {
+      structure!{$name; $($field: $type)*}
+   };
+}
+
 // #[macro_export]
 // #[macro_use]
 // macro_rules! auto_enum {

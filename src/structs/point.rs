@@ -1,6 +1,6 @@
 use super::*;
 
 pub struct Point {
-   x: Int16,
-   y: Int16,
+   pub x: Int16,
+   pub y: Int16,
 }

@@ -1,5 +1,3 @@
-use super::*;
-
 pub enum Event {
    KeyPress,
    KeyRelease,

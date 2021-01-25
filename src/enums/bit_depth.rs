@@ -1,5 +1,3 @@
-use super::*;
-
 #[derive(Debug)]
 pub enum BitDepth {
    D1 = 1,

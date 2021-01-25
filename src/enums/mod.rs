@@ -1,6 +1,6 @@
 use super::*;
 
-mpu!{bit_depth}
+mpu! {bit_depth}
 mpu! {bit_gravity}
 mpu! {button_mask}
 mpu! {button}
