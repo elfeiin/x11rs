@@ -14,5 +14,6 @@ mpu! {key_button_mask}
 mpu! {key_mask}
 mpu! {pointer_event}
 mpu! {scanline_pad}
+mpu! {success}
 mpu! {use_backing_stores}
 mpu! {win_gravity}
