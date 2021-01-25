@@ -1,12 +1,5 @@
 use super::*;
 
-macro_rules! mpu {
-   ($name:tt) => {
-      mod $name;
-      pub use $name::*;
-   };
-}
-
 mpu! {char2b}
 mpu! {format}
 mpu! {point}
