@@ -1,3 +1,12 @@
+#[macro_export]
+macro_rules! mpu {
+   ($name:tt) => {
+      mod $name;
+      pub use $name::*;
+   };
+   () => {};
+}
+
 // #[macro_export]
 // #[macro_use]
 // macro_rules! auto_enum {
