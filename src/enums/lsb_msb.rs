@@ -1,4 +1,5 @@
 #[derive(Copy, Clone, Debug)]
+#[repr(u8)]
 pub enum BitOrder {
    MSBFirst = 0o102,
    LSBFirst = 0o154,
@@ -21,6 +22,7 @@ impl From<u8> for BitOrder {
 }
 
 #[derive(Copy, Clone, Debug)]
+#[repr(u8)]
 pub enum ByteOrder {
    MSBFirst = 0o102,
    LSBFirst = 0o154,
