@@ -18,5 +18,5 @@ pub struct Screen {
    pub save_unders: Bool,
    pub root_depth: Card8,
    pub num_allowed_depths: Card8,
-   pub allowed_depths: Vec<BitDepth>,
+   pub allowed_depths: Vec<Depth>,
 }

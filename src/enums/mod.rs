@@ -17,4 +17,5 @@ mpu! {pointer_event}
 mpu! {scanline_pad}
 mpu! {success}
 mpu! {use_backing_stores}
+mpu! {visual_class}
 mpu! {win_gravity}

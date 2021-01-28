@@ -1,9 +1,11 @@
 use super::*;
 
+mpu! {arc}
 mpu! {char2b}
+mpu! {depth}
 mpu! {format}
 mpu! {point}
 mpu! {rectangle}
-mpu! {arc}
 mpu! {host}
 mpu! {screen}
+mpu! {visual_type}
