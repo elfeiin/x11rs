@@ -19,3 +19,4 @@ mpu! {success}
 mpu! {use_backing_stores}
 mpu! {visual_class}
 mpu! {win_gravity}
+mpu! {op_code}
