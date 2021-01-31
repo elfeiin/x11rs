@@ -13,10 +13,11 @@ mpu! {family}
 mpu! {key_button_mask}
 mpu! {key_mask}
 mpu! {lsb_msb}
+mpu! {op_code}
 mpu! {pointer_event}
 mpu! {scanline_pad}
 mpu! {success}
 mpu! {use_backing_stores}
 mpu! {visual_class}
 mpu! {win_gravity}
-mpu! {op_code}
+mpu! {window_class}
