@@ -1,3 +1,5 @@
+use std::io::{Read, Write};
+
 pub mod constants;
 pub mod enums;
 pub mod macros;
