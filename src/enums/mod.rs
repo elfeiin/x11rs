@@ -5,6 +5,7 @@ mpu! {bit_gravity}
 mpu! {button_mask}
 mpu! {button}
 mpu! {change_property_mode}
+mpu! {create_window_value_mask}
 mpu! {device_event}
 mpu! {direction}
 mpu! {error}

@@ -1,8 +1,15 @@
 #[repr(u8)]
+#[derive(Debug, Copy, Clone)]
 pub enum WindowClass {
    CopyfromParent = 0,
    InputOutput = 1,
    InputOnly = 2,
+}
+
+impl Default for WindowClass {
+   fn default() -> Self {
+      Self::CopyfromParent
+   }
 }
 
 impl From<u8> for WindowClass {
