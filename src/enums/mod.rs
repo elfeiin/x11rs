@@ -1,0 +1,24 @@
+use super::*;
+
+mpu! {bit_depth}
+mpu! {bit_gravity}
+mpu! {button_mask}
+mpu! {button}
+mpu! {change_property_mode}
+mpu! {create_window_value_mask}
+mpu! {device_event_mask}
+mpu! {direction}
+mpu! {error}
+mpu! {event_mask}
+mpu! {family}
+mpu! {key_button_mask}
+mpu! {key_mask}
+mpu! {lsb_msb}
+mpu! {op_code}
+mpu! {pointer_event_mask}
+mpu! {scanline_pad}
+mpu! {success}
+mpu! {use_backing_stores}
+mpu! {visual_class}
+mpu! {win_gravity}
+mpu! {window_class}

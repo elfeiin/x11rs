@@ -1,0 +1,20 @@
+
+pub enum X11Error {
+   Access,
+   Alloc,
+   Atom,
+   Colormap,
+   Cursor,
+   Drawable,
+   Font,
+   GContext,
+   IDChoice,
+   Implementation,
+   Length,
+   Match,
+   Name,
+   Pixmap,
+   Request,
+   Value,
+   Window,
+}
